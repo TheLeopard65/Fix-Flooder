@@ -1,7 +1,7 @@
 from scapy.all import IP, UDP, send
 import random
 
-target = "172.28.86.29"
+target = "127.0.0.1"
 
 while True:
     source_ip = ".".join(str(random.randint(1, 254)) for _ in range(4))
